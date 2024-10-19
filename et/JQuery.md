@@ -9,7 +9,7 @@ Q. Write a jQuery to show the use of Click (), hover (), on (), trigger (), off 
 
 Q. Write a jQuery to Create slide-up, slide-down and slide-Toggle effect: [Solution](https://github.com/vivekp-30/practs/blob/74f5b81f31b3874c7c6729046122080c3a6371bd/et/jQ-programs/index4.html)
 
-Q. Write a jQuery to animate multiple CSS properties:
+Q. Write a jQuery to animate multiple CSS properties: [Solution](https://github.com/vivekp-30/practs/blob/48a2c6a6e8b8e596b28e721cc01906ad6d9bb6e5/et/jQ-programs/index5.html)
 
 Q. Write a jQuery to Change text contents of the elements on button click.
 
