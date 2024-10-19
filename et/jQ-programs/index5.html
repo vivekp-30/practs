@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Animate Multiple Properties</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        #box {
+            width: 100px;
+            height: 100px;
+            background-color: #f94144;
+            margin: 50px;
+            position: relative;
+        }
+        .button {
+            margin: 10px;
+            padding: 10px;
+            background-color: #577590;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="box"></div>
+    <button class="button" id="animateBtn">Animate Box</button>
+
+    <script>
+        $(document).ready(function(){
+            $('#animateBtn').click(function(){
+                $('#box').animate({
+                    width: '300px',
+                    height: '300px',
+                    opacity: 0.5,
+                    marginLeft: '150px',
+                    marginTop: '50px'
+                }, 1000); // Animation duration is 1000 milliseconds (1 second)
+            });
+        });
+    </script>
+
+</body>
+</html>
