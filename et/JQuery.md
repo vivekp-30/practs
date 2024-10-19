@@ -3,4 +3,4 @@ Q. Write a jQuery script that changes the background color of a div element, fad
 Q. Write a jQuery to Select elements by class rollno,id and element name: 
 [Solution](https://github.com/vivekp-30/practs/blob/08af0ab636770f2bce40ff985bc2d986cc5a3a5b/et/jQ-programs/index2.html)
 
-Q. Write a jQuery to show the use of Click (), hover (), on (), trigger (), off () events: [Solution]()
+Q. Write a jQuery to show the use of Click (), hover (), on (), trigger (), off () events: [Solution](https://github.com/vivekp-30/practs/blob/9de4feacbf5645a970799b06b3ca4e5c8d46be5e/et/jQ-programs/index3.html)
