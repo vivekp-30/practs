@@ -11,7 +11,7 @@ Q. Write a jQuery to Create slide-up, slide-down and slide-Toggle effect: [Solut
 
 Q. Write a jQuery to animate multiple CSS properties: [Solution](https://github.com/vivekp-30/practs/blob/48a2c6a6e8b8e596b28e721cc01906ad6d9bb6e5/et/jQ-programs/index5.html)
 
-Q. Write a jQuery to Change text contents of the elements on button click.
+Q. Write a jQuery to Change text contents of the elements on button click. [Solution](https://github.com/vivekp-30/practs/blob/7e174c20e32e93e1f753f50c82fd80fc6f33f3fa/et/jQ-programs/index6.html)
 
 Q. Write a jQuery to add and remove CSS classes from the HTML elements
 
