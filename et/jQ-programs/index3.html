@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery Events Demo</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    .hover-box {
+      width: 200px;
+      height: 100px;
+      background-color: lightblue;
+      margin-bottom: 20px;
+    }
+    .clicked {
+      background-color: yellow;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Elements for events -->
+  <div class="hover-box">Hover over me</div>
+  <button id="clickBtn">Click me</button>
+  <button id="triggerBtn">Trigger click event</button>
+  <button id="disableHoverBtn">Disable hover</button>
+
+  <script>
+    
+    $(document).ready(function() {
+
+  // 1. Using click() to handle button click
+  $('#clickBtn').click(function() {
+    alert("Button clicked!");
+  });
+
+  // 2. Using hover() to change background color on mouseenter and reset on mouseleave
+  $('.hover-box').hover(
+    function() {
+      $(this).css("background-color", "lightgreen");
+    },
+    function() {
+      $(this).css("background-color", "lightblue");
+    }
+  );
+
+  // 3. Using on() to bind click event dynamically
+  $('#triggerBtn').on('click', function() {
+    alert("Triggered button clicked via on()!");
+  });
+
+  // 4. Using trigger() to manually trigger the click event on #clickBtn
+  $('#triggerBtn').click(function() {
+    $('#clickBtn').trigger('click');
+  });
+
+  // 5. Using off() to unbind the hover event
+  $('#disableHoverBtn').click(function() {
+    $('.hover-box').off('mouseenter mouseleave');
+    alert("Hover event disabled.");
+  });
+
+});
+
+  </script>
+</body>
+</html>
