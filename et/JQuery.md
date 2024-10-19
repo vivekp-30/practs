@@ -7,9 +7,9 @@ Q. Write a jQuery to Select elements by class rollno,id and element name:
 
 Q. Write a jQuery to show the use of Click (), hover (), on (), trigger (), off () events: [Solution](https://github.com/vivekp-30/practs/blob/9de4feacbf5645a970799b06b3ca4e5c8d46be5e/et/jQ-programs/index3.html)
 
-Q. Write a jQuery to Create slide-up, slide-down and slide-Toggle effect.
+Q. Write a jQuery to Create slide-up, slide-down and slide-Toggle effect: [Solution](https://github.com/vivekp-30/practs/blob/74f5b81f31b3874c7c6729046122080c3a6371bd/et/jQ-programs/index4.html)
 
-Q. Write a jQuery to animate multiple CSS properties.
+Q. Write a jQuery to animate multiple CSS properties:
 
 Q. Write a jQuery to Change text contents of the elements on button click.
 
