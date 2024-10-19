@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery Selectors</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    .highlight {
+      background-color: yellow;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Select by class -->
+  <div class="rollno">Roll No: 101</div>
+  <div class="rollno">Roll No: 102</div>
+
+  <!-- Select by ID -->
+  <div id="uniqueElement">This is an element with a unique ID.</div>
+
+  <!-- Select by element name (tag name) -->
+  <p>This is a paragraph.</p>
+  <p>This is another paragraph.</p>
+
+  <button id="trigger">Highlight Elements</button>
+
+  <script>
+    $(document).ready(function() {
+  $('#trigger').click(function() {
+    // Select elements by class 'rollno'
+    $('.rollno').addClass('highlight');
+
+    // Select element by ID 'uniqueElement'
+    $('#uniqueElement').addClass('highlight');
+
+    // Select elements by tag name 'p'
+    $('p').addClass('highlight');
+  });
+});
+
+  </script>
+</body>
+</html>
