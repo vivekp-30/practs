@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide Effects using jQuery</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        #content {
+            width: 300px;
+            height: 150px;
+            background-color: #f9c74f;
+            padding: 20px;
+            display: none;
+            text-align: center;
+        }
+        .button {
+            margin: 10px;
+            padding: 10px;
+            background-color: #90be6d;
+            cursor: pointer;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="content">This is the content area.</div>
+
+    <button class="button" id="slideUpBtn">Slide Up</button>
+    <button class="button" id="slideDownBtn">Slide Down</button>
+    <button class="button" id="slideToggleBtn">Slide Toggle</button>
+
+    <script>
+        $(document).ready(function(){
+            // Slide Up
+            $('#slideUpBtn').click(function(){
+                $('#content').slideUp();
+            });
+
+            // Slide Down
+            $('#slideDownBtn').click(function(){
+                $('#content').slideDown();
+            });
+
+            // Slide Toggle
+            $('#slideToggleBtn').click(function(){
+                $('#content').slideToggle();
+            });
+        });
+    </script>
+
+</body>
+</html>
