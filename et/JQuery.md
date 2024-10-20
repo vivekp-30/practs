@@ -29,9 +29,9 @@ Q. Write a jQuery to create fade-in and fade-out effect. [Solution](https://gith
 
 Q. Write a jQuery to remove the parent element of an HTML element from the page: [Solution](https://github.com/vivekp-30/practs/blob/c6b8971c8f9f88ab99ef76b3623d63f2b889d690/et/jQ-programs/index14.html)
 
-Q. Write a jQuery to add CSS classes from the HTML elements. 
+Q. Write a jQuery to add CSS classes from the HTML elements: [Solution](https://github.com/vivekp-30/practs/blob/d7eeea3d920eb83404a885eb88961fa16c596242/et/jQ-programs/index15.html)
 
-Q. Write a jQuery to get and set text contents of the elements.
+Q. Write a jQuery to get and set text contents of the elements: 
 
 Q. Write a jQuery to set the duration in slide toggle effect.
 
