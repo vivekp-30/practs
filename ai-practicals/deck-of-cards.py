@@ -1,11 +1,16 @@
+import itertools
 import random
 
+#Create a deck of cards
+suits = ['Spade', 'Heart', 'Diamond', 'Club']
+ranks = range(1, 14)
+deck = list(itertools.product(ranks, suits))
 
-cards=['s','e','r','y']
-ranks=range(1,14)
-decks=[(rank,card) for rank in ranks for card in cards]
+#Shuffle the deck
+random.shuffle(deck)
 
-
-print("You Got")
-for rank,deck in decks[:5]:
-    print(f"{rank} of {deck}")
+#Draw five cards
+print("You got:")
+for i in range(5):
+    rank, suit = deck[i]
+    print(f"{rank} of {suit}")
