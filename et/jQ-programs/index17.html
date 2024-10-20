@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Slide Toggle Effect</title>
+    <style>
+        .content {
+            width: 300px;
+            height: 150px;
+            background-color: lightblue;
+            margin: 20px auto;
+            padding: 10px;
+            display: none; /* Initially hidden */
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <button id="toggleButton">Toggle Content</button>
+    <div class="content" id="myContent">
+        <p>This is some content that will slide toggle.</p>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $('#toggleButton').click(function() {
+                $('#myContent').slideToggle(1000); // Slide toggle with a duration of 1 second (1000 ms)
+            });
+        });
+    </script>
+</body>
+</html>
