@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove Parent Element</title>
+    <style>
+        .container {
+            padding: 20px;
+            border: 1px solid #ccc;
+            margin: 20px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <p>This is a paragraph inside the container.</p>
+        <button class="removeParentButton">Remove Parent</button>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $('.removeParentButton').click(function() {
+                $(this).parent().remove(); // Remove the parent element of the button
+            });
+        });
+    </script>
+</body>
+</html>
