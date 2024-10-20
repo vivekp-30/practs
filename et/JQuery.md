@@ -13,7 +13,7 @@ Q. Write a jQuery to animate multiple CSS properties: [Solution](https://github.
 
 Q. Write a jQuery to Change text contents of the elements on button click. [Solution](https://github.com/vivekp-30/practs/blob/7e174c20e32e93e1f753f50c82fd80fc6f33f3fa/et/jQ-programs/index6.html)
 
-Q. Write a jQuery to add and remove CSS classes from the HTML elements
+Q. Write a jQuery to add and remove CSS classes from the HTML elements: [Solution](https://github.com/vivekp-30/practs/blob/e5df1b2c4336cbb5cf00aa86453a69090438a08b/et/jQ-programs/index7.html)
 
 Q. Write a jQuery animation that moves a div 100px to the right over 2 seconds and then increases its width to 300px. 
 
