@@ -19,7 +19,7 @@ Q. Write a jQuery animation that moves a div 100px to the right over 2 seconds a
 
 Q. Write a jQuery to insert multiple HTML elements at the beginning and end of the elements. [Solution](https://github.com/vivekp-30/practs/blob/6fda76e3f8a5cc0c5e1d62fd911ce0db0fff1a44/et/jQ-programs/index9.html)
 
-Q. Write a jQuery to create your own Customized event.
+Q. Write a jQuery to create your own Customized event: [Solution](https://github.com/vivekp-30/practs/blob/249b8239cc9b5071d175be8c9d2cd1304475dc7b/et/jQ-programs/index10.html)
 
 Q. Write a jQuery Create animation effect.
 
