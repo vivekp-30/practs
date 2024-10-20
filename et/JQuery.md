@@ -21,7 +21,7 @@ Q. Write a jQuery to insert multiple HTML elements at the beginning and end of t
 
 Q. Write a jQuery to create your own Customized event: [Solution](https://github.com/vivekp-30/practs/blob/249b8239cc9b5071d175be8c9d2cd1304475dc7b/et/jQ-programs/index10.html)
 
-Q. Write a jQuery Create animation effect.
+Q. Write a jQuery Create animation effect. [Solution](https://github.com/vivekp-30/practs/blob/08219e426e8478ad9bd7f86f881151fdb4b6a031/et/jQ-programs/index11.html)
 
 Q. Write a jQuery to perform Method chaining.
 
