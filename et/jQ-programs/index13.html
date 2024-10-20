@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Fade In and Fade Out</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            display: none; /* Initially hidden */
+            margin: 20px;
+            text-align: center;
+            line-height: 200px; /* Center the text vertically */
+            font-size: 20px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <button id="fadeInButton">Fade In</button>
+    <button id="fadeOutButton">Fade Out</button>
+    <div class="box" id="myBox">Hello!</div>
+
+    <script>
+        $(document).ready(function() {
+            $('#fadeInButton').click(function() {
+                $('#myBox').fadeIn(1000); // Fade in over 1 second
+            });
+
+            $('#fadeOutButton').click(function() {
+                $('#myBox').fadeOut(1000); // Fade out over 1 second
+            });
+        });
+    </script>
+</body>
+</html>
