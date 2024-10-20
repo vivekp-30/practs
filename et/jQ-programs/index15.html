@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add CSS Classes with jQuery</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            margin: 20px;
+            display: inline-block;
+        }
+        .highlight {
+            border: 5px solid red;
+        }
+        .large {
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="box" id="myBox"></div>
+    <button id="addHighlight">Add Highlight Class</button>
+    <button id="addLarge">Add Large Class</button>
+    <button id="removeClasses">Remove Classes</button>
+
+    <script>
+        $(document).ready(function() {
+            $('#addHighlight').click(function() {
+                $('#myBox').addClass('highlight'); // Add highlight class
+            });
+
+            $('#addLarge').click(function() {
+                $('#myBox').addClass('large'); // Add large class
+            });
+
+            $('#removeClasses').click(function() {
+                $('#myBox').removeClass('highlight large'); // Remove both classes
+            });
+        });
+    </script>
+</body>
+</html>
