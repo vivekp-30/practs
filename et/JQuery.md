@@ -31,9 +31,9 @@ Q. Write a jQuery to remove the parent element of an HTML element from the page:
 
 Q. Write a jQuery to add CSS classes from the HTML elements: [Solution](https://github.com/vivekp-30/practs/blob/d7eeea3d920eb83404a885eb88961fa16c596242/et/jQ-programs/index15.html)
 
-Q. Write a jQuery to get and set text contents of the elements: 
+Q. Write a jQuery to get and set text contents of the elements: [Solution](https://github.com/vivekp-30/practs/blob/cffbba4ddedb512f0b447509b0094d1731c89c38/et/jQ-programs/index16.html)
 
-Q. Write a jQuery to set the duration in slide toggle effect.
+Q. Write a jQuery to set the duration in slide toggle effect. [Solution]()
 
 Q. Write a jQuery to animate multiple CSS properties.
 
