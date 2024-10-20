@@ -37,6 +37,6 @@ Q. Write a jQuery to set the duration in slide toggle effect. [Solution](https:/
 
 Q. Write a jQuery to animate multiple CSS properties. [Solution](https://github.com/vivekp-30/practs/blob/d0d757f4b327cb8855155b1af98d8d17f9a6c3e5/et/jQ-programs/index18.html)
 
-Q. Write a JQuery script that fades out a div, and after the fade is complete, uses a callback function to display an alert with the text "Animation Completed!".
+Q. Write a JQuery script that fades out a div, and after the fade is complete, uses a callback function to display an alert with the text "Animation Completed!". [Solution](https://github.com/vivekp-30/practs/blob/db3e26facf714d5de8c8bc0aa20eeb56896a43be/et/jQ-programs/index19.html)
 
 
