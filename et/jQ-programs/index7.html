@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Add/Remove Classes</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            text-align: center;
+            line-height: 100px;
+        }
+
+        .highlight {
+            background-color: yellow;
+            border: 2px solid red;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div id="myElement" class="box">Hello, World!</div>
+    <button id="addClass">Add Class</button>
+    <button id="removeClass">Remove Class</button>
+
+    <script>
+        $(document).ready(function() {
+            $('#addClass').click(function() {
+                $('#myElement').addClass('highlight');
+            });
+
+            $('#removeClass').click(function() {
+                $('#myElement').removeClass('highlight');
+            });
+        });
+    </script>
+</body>
+</html>
