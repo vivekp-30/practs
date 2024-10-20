@@ -17,7 +17,7 @@ Q. Write a jQuery to add and remove CSS classes from the HTML elements: [Solutio
 
 Q. Write a jQuery animation that moves a div 100px to the right over 2 seconds and then increases its width to 300px: [Solution](https://github.com/vivekp-30/practs/blob/ab2239e4b7ae30ed0f98e332f2294873375b721e/et/jQ-programs/index8.html)
 
-Q. Write a jQuery to insert multiple HTML elements at the beginning and end of the elements.
+Q. Write a jQuery to insert multiple HTML elements at the beginning and end of the elements. [Solution](https://github.com/vivekp-30/practs/blob/6fda76e3f8a5cc0c5e1d62fd911ce0db0fff1a44/et/jQ-programs/index9.html)
 
 Q. Write a jQuery to create your own Customized event.
 
