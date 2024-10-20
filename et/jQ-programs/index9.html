@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Insert Elements</title>
+    <style>
+        .container {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 20px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Original Content</h2>
+        <p>This is a paragraph inside the container.</p>
+    </div>
+    <button id="insert">Insert Elements</button>
+
+    <script>
+        $(document).ready(function() {
+            $('#insert').click(function() {
+                // Insert multiple elements at the beginning
+                $('.container').prepend('<h3>New Header</h3><p>Inserted at the beginning.</p>');
+
+                // Insert multiple elements at the end
+                $('.container').append('<p>Inserted at the end.</p><p>Another end element.</p>');
+            });
+        });
+    </script>
+</body>
+</html>
