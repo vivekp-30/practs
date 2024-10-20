@@ -33,9 +33,9 @@ Q. Write a jQuery to add CSS classes from the HTML elements: [Solution](https://
 
 Q. Write a jQuery to get and set text contents of the elements: [Solution](https://github.com/vivekp-30/practs/blob/cffbba4ddedb512f0b447509b0094d1731c89c38/et/jQ-programs/index16.html)
 
-Q. Write a jQuery to set the duration in slide toggle effect. [Solution]()
+Q. Write a jQuery to set the duration in slide toggle effect. [Solution](https://github.com/vivekp-30/practs/blob/c0870731ca17318da11619bd2304067d9319b0e3/et/jQ-programs/index17.html)
 
-Q. Write a jQuery to animate multiple CSS properties.
+Q. Write a jQuery to animate multiple CSS properties. [Solution]()
 
 Q. Write a JQuery to get and set text contents of the elements.
 
