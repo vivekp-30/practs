@@ -1,3 +1,20 @@
+## Getting JQuery CDN link:
+
+#### Step1: Search for "Jquery cdn link" in the browser and find a website with this URL: https://releases.jquery.com/
+
+#### Step2: In the site, find "jQuery Core 3.7.1", click on the minified link 
+
+#### Step3: you will see a script tag like this, copy that: 
+```
+<script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+  crossorigin="anonymous"></script>
+```
+#### Step4: Paste the script tag in the <head> tag of your html.
+---
+## List of Practicals
+
 Q. Write a jQuery script that changes the background color of a div element, fades out the div, and then slides it up. [Solution](https://github.com/vivekp-30/practs/blob/012fe831b857395677a75fec3ee1b8f7f6e0c0d9/et/jQ-programs/index1.html)
 
 Q. Create an image slider with next and back buttons. [Solution](https://github.com/vivekp-30/practs/blob/a77e083935ec385f791926b1dd5763c6625b940d/et/jQ-programs/index20.html)
