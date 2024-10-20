@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Method Chaining</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            margin: 20px;
+            display: inline-block;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <button id="chainButton">Chain Methods</button>
+    <div class="box"></div>
+
+    <script>
+        $(document).ready(function() {
+            $('#chainButton').click(function() {
+                $('.box')
+                    .css('border', '5px solid red') // Change border style
+                    .fadeOut(1000) // Fade out over 1 second
+                    .fadeIn(1000) // Fade back in over 1 second
+                    .css('background-color', 'yellow'); // Change background color after fading in
+            });
+        });
+    </script>
+</body>
+</html>
