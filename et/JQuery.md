@@ -27,9 +27,9 @@ Q. Write a jQuery to perform Method chaining. [Solution](https://github.com/vive
 
 Q. Write a jQuery to create fade-in and fade-out effect. [Solution](https://github.com/vivekp-30/practs/blob/9f0c9a5f5f9ff958c28a7ad5590fe144eb3f1e71/et/jQ-programs/index13.html)
 
-Q. Write a jQuery to remove the parent element of an HTML element from the page.
+Q. Write a jQuery to remove the parent element of an HTML element from the page: [Solution](https://github.com/vivekp-30/practs/blob/c6b8971c8f9f88ab99ef76b3623d63f2b889d690/et/jQ-programs/index14.html)
 
-Q. Write a jQuery to add CSS classes from the HTML elements.
+Q. Write a jQuery to add CSS classes from the HTML elements. 
 
 Q. Write a jQuery to get and set text contents of the elements.
 
