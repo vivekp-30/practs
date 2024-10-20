@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom jQuery Event</title>
+    <style>
+        .container {
+            padding: 20px;
+            border: 1px solid #ccc;
+            margin: 20px;
+        }
+        .message {
+            margin-top: 10px;
+            font-weight: bold;
+            color: green;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <button id="triggerCustomEvent">Trigger Custom Event</button>
+        <div class="message"></div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            // Define a custom event
+            $.fn.triggerMyCustomEvent = function() {
+                this.trigger('myCustomEvent');
+            };
+
+            // Listen for the custom event
+            $('.container').on('myCustomEvent', function() {
+                $('.message').text('Custom event has been triggered!');
+            });
+
+            // Trigger the custom event when the button is clicked
+            $('#triggerCustomEvent').click(function() {
+                $('.container').triggerMyCustomEvent();
+            });
+        });
+    </script>
+</body>
+</html>
