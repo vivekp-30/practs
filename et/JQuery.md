@@ -23,9 +23,9 @@ Q. Write a jQuery to create your own Customized event: [Solution](https://github
 
 Q. Write a jQuery Create animation effect. [Solution](https://github.com/vivekp-30/practs/blob/08219e426e8478ad9bd7f86f881151fdb4b6a031/et/jQ-programs/index11.html)
 
-Q. Write a jQuery to perform Method chaining.
+Q. Write a jQuery to perform Method chaining. [Solution](https://github.com/vivekp-30/practs/blob/cd7bd17dcc8eaaa265554a3c3c4b5c679d8b5081/et/jQ-programs/index12.html)
 
-Q. Write a jQuery to create fade-in and fade-out effect.
+Q. Write a jQuery to create fade-in and fade-out effect. [Solution](https://github.com/vivekp-30/practs/blob/9f0c9a5f5f9ff958c28a7ad5590fe144eb3f1e71/et/jQ-programs/index13.html)
 
 Q. Write a jQuery to remove the parent element of an HTML element from the page.
 
