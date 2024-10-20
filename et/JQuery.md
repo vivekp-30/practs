@@ -15,7 +15,7 @@ Q. Write a jQuery to Change text contents of the elements on button click. [Solu
 
 Q. Write a jQuery to add and remove CSS classes from the HTML elements: [Solution](https://github.com/vivekp-30/practs/blob/e5df1b2c4336cbb5cf00aa86453a69090438a08b/et/jQ-programs/index7.html)
 
-Q. Write a jQuery animation that moves a div 100px to the right over 2 seconds and then increases its width to 300px. 
+Q. Write a jQuery animation that moves a div 100px to the right over 2 seconds and then increases its width to 300px: [Solution](https://github.com/vivekp-30/practs/blob/ab2239e4b7ae30ed0f98e332f2294873375b721e/et/jQ-programs/index8.html)
 
 Q. Write a jQuery to insert multiple HTML elements at the beginning and end of the elements.
 
