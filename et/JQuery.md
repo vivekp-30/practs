@@ -35,9 +35,7 @@ Q. Write a jQuery to get and set text contents of the elements: [Solution](https
 
 Q. Write a jQuery to set the duration in slide toggle effect. [Solution](https://github.com/vivekp-30/practs/blob/c0870731ca17318da11619bd2304067d9319b0e3/et/jQ-programs/index17.html)
 
-Q. Write a jQuery to animate multiple CSS properties. [Solution]()
-
-Q. Write a JQuery to get and set text contents of the elements.
+Q. Write a jQuery to animate multiple CSS properties. [Solution](https://github.com/vivekp-30/practs/blob/d0d757f4b327cb8855155b1af98d8d17f9a6c3e5/et/jQ-programs/index18.html)
 
 Q. Write a JQuery script that fades out a div, and after the fade is complete, uses a callback function to display an alert with the text "Animation Completed!".
 
