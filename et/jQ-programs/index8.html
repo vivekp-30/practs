@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Animation</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            position: relative; /* Required for the left property */
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div id="myElement" class="box"></div>
+    <button id="animate">Animate</button>
+
+    <script>
+        $(document).ready(function() {
+            $('#animate').click(function() {
+                $('#myElement')
+                    .animate({ left: '+=100px' }, 2000) // Move right 100px over 2 seconds
+                    .animate({ width: '300px' }, 1000); // Then increase width to 300px over 1 second
+            });
+        });
+    </script>
+</body>
+</html>
