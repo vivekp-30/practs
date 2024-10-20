@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animate Multiple CSS Properties with jQuery</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            position: relative; /* Required for movement */
+            margin: 20px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <button id="animateButton">Animate Box</button>
+    <div class="box" id="myBox"></div>
+
+    <script>
+        $(document).ready(function() {
+            $('#animateButton').click(function() {
+                $('#myBox').animate({
+                    left: '+=200px', // Move right by 200 pixels
+                    height: '150px', // Change height to 150 pixels
+                    backgroundColor: '#ff5722' // Change background color to orange
+                }, 1000); // Duration of 1 second (1000 ms)
+            });
+        });
+    </script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+</body>
+</html>
