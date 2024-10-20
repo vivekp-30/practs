@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Animation Effect</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            position: relative; /* Required for the left property */
+            display: none; /* Hidden initially */
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <button id="animateButton">Animate Box</button>
+    <div class="box" id="myBox"></div>
+
+    <script>
+        $(document).ready(function() {
+            $('#animateButton').click(function() {
+                $('#myBox')
+                    .css({ left: '-200px', display: 'block' }) // Start position off-screen
+                    .animate({ left: '0px', opacity: 1 }, 1000) // Move to original position and fade in
+                    .fadeIn(500); // Fade in over 0.5 seconds
+            });
+        });
+    </script>
+</body>
+</html>
