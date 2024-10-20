@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get and Set Text with jQuery</title>
+    <style>
+        .box {
+            padding: 20px;
+            border: 1px solid #ccc;
+            margin: 20px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="box">
+        <p id="myParagraph">This is the original text.</p>
+    </div>
+    <button id="getTextButton">Get Text</button>
+    <button id="setTextButton">Set New Text</button>
+
+    <script>
+        $(document).ready(function() {
+            $('#getTextButton').click(function() {
+                // Get the text content of the paragraph
+                const text = $('#myParagraph').text();
+                alert('Current Text: ' + text); // Display the text in an alert
+            });
+
+            $('#setTextButton').click(function() {
+                // Set new text content to the paragraph
+                $('#myParagraph').text('This is the new text content!');
+            });
+        });
+    </script>
+</body>
+</html>
