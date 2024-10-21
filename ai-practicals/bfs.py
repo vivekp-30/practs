@@ -32,5 +32,5 @@ def bfs(node,graph,visited):
 
 
 
-print(bfs('A',graph,visited))
+bfs('A',graph,visited)
 print(ans)
