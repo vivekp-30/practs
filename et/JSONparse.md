@@ -56,17 +56,13 @@ fs.readFile('users.json', 'utf8', (err, data) => {
 });
 ```
 
-### Step 3: Run the Code
+### Step 3: Steps for Running
 
-1. Save the JSON content into a file.
-2. Save the JavaScript code into a file named `parseJSON.js`.
-3. Make sure you have Node.js installed on your machine.
-4. Open a terminal and navigate to the directory containing both the files.
-5. Run the script with the following command:
-
-```bash
-node parseJSON.js
-```
+1. Create a new folder in VS Code and create empty `.json` and `.js` files.
+2. Copy the code into the files.
+3. Install the Code Runner extension from the Extensions Tab in VS Code.
+4. Make sure the file name of json file matches the file name passed in `fs.readfile()` in `.js` file.
+5. Right Click on the js File and click Run Code.
 
 ### Expected Output
 
