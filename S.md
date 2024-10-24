@@ -17,3 +17,10 @@ Creating a JSON file from data in MongoDB typically involves querying your datab
    mongoexport --db yourDatabase --collection yourCollection --out output.json --jsonArray
    ```
    Replace `yourDatabase`, `yourCollection`, and `output.json` with your actual database name, collection name, and desired output file name.
+
+
+Aadhi file Import kar using mongoimport
+
+mongoimport --db Demo --collection company --file ""
+
+mongoexport --db Demo --collection company --out output.json --jsonArray
